@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gaurav</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+    font-family:"Lucida Sans", sans-serif;
+    background-color: #f9f9f9;
+    color: #333333;
+}
+
+header{
+    background: darkred;
+    color: white;
+    padding: 15px 30px;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main{
+    flex: 1;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(2, 200px);
+    column-gap: 30px;
+    row-gap: 15px;
+}
+
+.box{
+    width: 200px;
+    height: 180px;
+    background: darkred;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    border-radius: 8px;
+}
+
+footer{
+    background: darkred;
+    color: white;
+    padding: 15px 30px;
+    font-size: 24px;
+}
+</style>
+
+</head>
+<body>
+
+<header>
+    <div style="font-weight: bold;">Gaurav</div>
+    <div style="font-size: 16px;">Navbar</div>
+</header>
+
+<main>
+    <div class="container">
+        <div class="box">Box 1</div>
+        <div class="box">Box 2</div>
+        <div class="box">Box 3</div>
+        <div class="box">Box 4</div>
+    </div>
+</main>
+
+<footer>
+    Gaurav &copy; 2026
+</footer>
+
+</body>
+</html>

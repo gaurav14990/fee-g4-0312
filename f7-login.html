@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaurav</title>
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        min-height: 100dvh;
+        background-color: #e8f5e9;
+        color: #333333;
+        font-family: "Roboto Condensed" , sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    section{
+        background-color: white;
+        width: 20rem;
+        padding: 2rem;
+        border-radius: 8px;
+        box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+        border: 1px solid #e0e0e0;
+        font-size: 1.2rem;
+        display: flex;
+        justify-content: center;
+    }
+    main{
+        width: 100%;
+    }
+    input{
+        height: 40px;
+        padding: 8px 12px;
+        font-size: 1.1rem;
+        width: 100%;
+        outline: none;
+        border-radius: 8px;
+        background-color: #f9f9f9;
+        color: #333333;
+        border: 1px solid #cccccc;
+        transition: border-color 0.3s;
+    }
+    input:focus{
+        border-color: #2e7d32;
+    }
+    label{
+        display: inline-block;
+        margin-bottom: 6px;
+        color: #666666;
+    }
+    button{
+        background: #2e7d32;
+        color: white;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-family: "Roboto Condensed", sans-serif;
+        font-size: 1.5rem;
+        width: 100%;
+        padding: 8px;
+        border-radius: 8px;
+        border: none;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+    button:hover{
+        background-color: #1b5e20;
+    }
+    button:active{
+        transform: scale(0.97);
+    }
+</style>
+</head>
+<body>
+    <section>
+        <main>
+            <form action="#" method="get">
+                <h2 style="text-align: center; margin-bottom: 1.5rem; color: #1b5e20;">Gaurav Login</h2>
+                <div>
+                    <label for="email">Email</label>
+                    <input 
+                    type="text"
+                    id="email"
+                    name="email"
+                    placeholder="Enter your email"
+                    minlength="3"
+                    maxlength="8"
+                    required/>
+                </div>
+                <br/>
+                <div>
+                    <label for="password">Password</label>
+                    <input
+                    type="password"
+                    id="password"
+                    name="password"
+                    placeholder="Enter your password"
+                    minlength="3"
+                    maxlength="8"
+                    required/>
+                </div>
+                <br/>
+                <button type="submit">Submit</button>
+            </form>
+        </main>
+    </section>
+</body>
+</html>

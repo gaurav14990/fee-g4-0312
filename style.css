@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Yuyu&display=swap');
+*{
+    margin: 0;
+}
+body{
+    min-height: 100vh;
+    background-color: bisque;
+    background: radial-gradient(white, rgb(164, 102, 225));
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family : "yuyu" , sans-serif;
+    font-size: 40px;
+}
+section{
+    width: 100%;
+}
+.b{
+    border: 1px solid gray;
+}
+.p{
+    padding: 0.5rem;
+}
+.ms{
+    min-height: 100dvh;
+}
+.fcy{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5rem;
+}
+.fcx{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+.jsb{
+    justify-content: space-between;
+}
+.box{
+    width: 100%;
+    max-width: 600px;
+    min-height: 1rem;
+    max-height: 10rem;
+    border-radius: 5px;
+    overflow: hidden;
+}

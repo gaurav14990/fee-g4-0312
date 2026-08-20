@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaurav</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+
+        body{
+            min-height:100dvh;
+            background: linear-gradient(135deg, #121212 0%, #181818 50%, #222222 100%);
+            color: #e0e0e0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .p{
+            padding: 1rem;
+        }
+
+        section{
+            width: 100%;
+        }
+
+        .box{
+            width: 100%;
+            height: 7rem;
+            border-radius: 8px;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+
+        .card{
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            background-color: rgba(30, 30, 30, 0.7);
+            backdrop-filter: blur(10px);
+            color: white;
+            max-width: 500px;
+        }
+
+        .fc1{
+            min-height: 100dvh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .fc2{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            gap: 1rem;
+        }
+
+        @media screen and (min-width: 767px){
+            #s1,#s2{
+                width: 80%;
+            }
+        }
+       
+        @media screen and (min-width: 1024px){
+            #s1,#s2{
+                width: 70%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <section class="p fc1">
+        <section class="fc2" id="s1">
+            <div class="p box card">Gaurav</div>
+        </section>
+        <section class="fc2" id="s2">
+            <div class="p box card">BOX-2</div>
+            <div class="p box card">BOX-3</div>
+            <div class="p box card">BOX-4</div>
+        </section>
+    </section>
+</body>
+</html>
